@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUIFirstProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            TapCount()
+//            BindingState()
+            CreatingViewsthroughLoop()
         }
     }
 }
