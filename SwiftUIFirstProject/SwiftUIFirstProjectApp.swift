@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIFirstProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            CorrectFlag()
+            CustomModifier()
         }
     }
 }

@@ -16,7 +16,6 @@ struct CorrectFlag: View {
     @State private var showingScore:Bool = false
     @State private var scoreValue:Int = 0
 
-
     var body: some View {
 
         ZStack{
@@ -37,7 +36,6 @@ struct CorrectFlag: View {
 
                 VStack(spacing : 20){
 
-
                     VStack{
                         Text("Tap the correct flag").foregroundColor(Color.white)       .foregroundStyle(.secondary)
                             .font(.subheadline.weight(.heavy))  .font(.largeTitle.weight(.semibold))
@@ -52,10 +50,6 @@ struct CorrectFlag: View {
                         }
                     }
 
-
-
-
-
                 }
                 .frame(maxWidth : .infinity)
                 .padding(.vertical ,  20 )
@@ -69,13 +63,6 @@ struct CorrectFlag: View {
                 Spacer()
 
             }
-
-
-
-
-
-
-
 
         }
 

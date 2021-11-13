@@ -20,6 +20,7 @@
 		22946DEE273AA70700BAF703 /* BindingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22946DED273AA70600BAF703 /* BindingState.swift */; };
 		22946DF0273AA8DD00BAF703 /* CreatingViewsthroughLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22946DEF273AA8DD00BAF703 /* CreatingViewsthroughLoop.swift */; };
 		22946DF3273BBC7600BAF703 /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22946DF2273BBC7600BAF703 /* WeSplit.swift */; };
+		22E17B27273FFEC900C49C7A /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E17B26273FFEC900C49C7A /* CustomModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		22946DED273AA70600BAF703 /* BindingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingState.swift; sourceTree = "<group>"; };
 		22946DEF273AA8DD00BAF703 /* CreatingViewsthroughLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingViewsthroughLoop.swift; sourceTree = "<group>"; };
 		22946DF2273BBC7600BAF703 /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
+		22E17B26273FFEC900C49C7A /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		228EDF4A273D266E006951B2 /* Project Two */ = {
 			isa = PBXGroup;
 			children = (
+				22E17B25273FFE5A00C49C7A /* Part three */,
 				228EDF57273D369E006951B2 /* Part two */,
 				228EDF4B273D267B006951B2 /* Part one */,
 			);
@@ -142,6 +145,14 @@
 			path = "Part Two";
 			sourceTree = "<group>";
 		};
+		22E17B25273FFE5A00C49C7A /* Part three */ = {
+			isa = PBXGroup;
+			children = (
+				22E17B26273FFEC900C49C7A /* CustomModifier.swift */,
+			);
+			path = "Part three";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,6 +228,7 @@
 				228EDF59273D37EF006951B2 /* CorrectFlag.swift in Sources */,
 				22946DF0273AA8DD00BAF703 /* CreatingViewsthroughLoop.swift in Sources */,
 				22946DEE273AA70700BAF703 /* BindingState.swift in Sources */,
+				22E17B27273FFEC900C49C7A /* CustomModifier.swift in Sources */,
 				22946DEC273AA52F00BAF703 /* TapCount.swift in Sources */,
 				228EDF4D273D26CC006951B2 /* Stacks.swift in Sources */,
 				22946DF3273BBC7600BAF703 /* WeSplit.swift in Sources */,
